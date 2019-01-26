@@ -21,7 +21,6 @@ app.use(require('./routes/index'))
 //Static files
 
 //Start server
-
 app.listen(app.get('port'), ()=>{
     console.log(`Serveing on port ${app.get('port')}`)
 })
